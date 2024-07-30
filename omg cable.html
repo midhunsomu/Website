@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>O.MG Elite Cable</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="icon" href="C:\web\first project\img\omg cable.jpeg">
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+      font-family: "Raleway", sans-serif;
+    }
+
+    body {
+      background-image: url("ba.jpeg");
+    }
+  </style>
+</head>
+
+<body class="w3-light-grey">
+
+  <!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+  <div class="w3-content" style="max-width:1400px">
+
+    <!-- Header -->
+    <header class="w3-container w3-center w3-padding-32">
+      <h1>
+        <bold><span class="auto-type" style="color: black;"></span></bold>
+      </h1>
+      <h2 style="color: burlywood;">Is your phone charger doing more than just charging?</h2>
+    </header>
+
+    <!-- Grid -->
+    <div class="w3-row">
+
+      <!-- Blog entries -->
+      <div class="w3-col l8 s12">
+        <!-- Blog entry -->
+
+        <div class="w3-card-4 w3-margin w3-white" style="background-image: url('ou.jpg')">
+
+          <div class="w3-container">
+            <h3><b>What is it?</b></h3>
+
+          </div>
+
+          <div class="w3-container">
+            <p>It's just an ordinary, unremarkable USB cable—or so a hacker would want you to think.
+              <br><br>
+              "It's a cable that looks identical to the other cables you already have," explains MG, the cable's
+              creator. "But inside each cable, I've put an implant with a web server, USB communications, and Wi-Fi
+              access. So it plugs in, powers up, and you can connect to it."
+              <br><br>
+              This ordinary-looking cable is designed to snoop on the data that passes through it and send commands to
+              whatever phone or computer it's connected to. It even has a built-in Wi-Fi access point. The latest
+              version includes expanded network capabilities, allowing for bidirectional communication over the
+              internet—receiving commands from a control server and sending data from the connected device back to the
+              attacker.
+            </p>
+
+          </div>
+        </div>
+        <br>
+
+        <!-- Blog entry -->
+        <div class="w3-card-4 w3-margin w3-white" style="background-image: url('ou.jpg')">
+
+          <div class="w3-container">
+            <h3><b>what can it do?</b></h3>
+          </div>
+
+          <div class="w3-container">
+            <p>Stressing again that this looks like a totally normal USB cable, its power and stealth are impressive.
+              <br><br>
+              Firstly, like the USB Rubber Ducky, the O.MG cable can perform keystroke injection attacks, making a
+              target machine think it's a keyboard and then typing commands. This allows it to launch software, download
+              malware, or steal saved Chrome passwords and send them over the internet.
+              <br><br>
+              It also has a keylogger. If used to connect a keyboard to a computer, the cable can record every keystroke
+              and save up to 650,000 key entries in its onboard storage. Your password? Logged. Bank account details?
+              Logged. Even bad draft tweets? Logged.
+              <br><br>
+              While this likely requires physical access to the target machine, many "evil maid" attacks can be executed
+              in real life.
+              <br><br>
+              Lastly, about that built-in Wi-Fi. Many exfiltration attacks, like stealing Chrome passwords, rely on
+              using the target machine's internet connection, which can be blocked by antivirus software or network
+              rules. The cable's onboard network interface bypasses these protections, providing its own communications
+              channel to send and receive data, even from targets that are air-gapped, or completely disconnected from
+              external networks.
+              <br><br>
+              Basically, this cable can spill your secrets without you ever knowing.
+            </p>
+
+          </div>
+        </div>
+        <br>
+        <!-- Blog entry -->
+        <div class="w3-card-4 w3-margin w3-white" style="background-image: url('ou.jpg')">
+
+          <div class="w3-container">
+            <h3><b>How much of a threat is it?</b></h3>
+          </div>
+
+          <div class="w3-container">
+            <p>The scary thing about the O.MG cable is its extreme stealth. Holding the cable, there’s nothing
+              suspicious about it. If someone offered it as a phone charger, I wouldn’t think twice. With options like
+              Lightning, USB-A, and USB-C, it can target almost any device, including Windows, macOS, iPhone, and
+              Android, making it suitable for various environments.
+              <br><br>
+              This cable can spill your secrets.
+              <br><br>
+              For most people, the threat of being targeted is very low. The Elite version costs $179.99, making it a
+              tool for professional penetration testing rather than something a low-level scammer could afford to leave
+              around, hoping to snare a target. However, costs tend to decrease over time, especially with a streamlined
+              production process. “I originally made these in my garage by hand, and it took me four to eight hours per
+              cable,” MG told me. Now, years later, a factory handles the assembly.
+              <br><br>
+              Overall, you’re unlikely to be hacked with an O.MG cable unless you’re a valuable target. But it’s a good
+              reminder that anyone with access to sensitive information should be cautious about what they plug into a
+              computer, even something as seemingly innocuous as a cable.
+            </p>
+
+          </div>
+        </div>
+        <!-- END BLOG ENTRIES -->
+      </div>
+
+      <!-- Introduction menu -->
+      <div class="w3-col l4">
+        <!-- About Card -->
+        <div class="w3-card w3-margin w3-margin-top">
+          <img src="C:\web\first project\img\omg cable.jpeg" alt="Nature" style="width:100%;height: 300px;">
+          <div class="w3-container w3-white" style="background-image: url('ou.jpg')">
+            <h4><b>Could I use it myself?</b></h4>
+            <p>I didn’t get a chance to test the O.MG cable directly, but judging by the online setup instructions and
+              my experience with the Rubber Ducky, you don’t need to be an expert to use it.
+              <br><br>
+              The cable requires some initial setup, like flashing firmware to the device, but it can then be programmed
+              through a web interface accessible from a browser. You can write attack scripts in a modified version of
+              DuckyScript, the same language used by the USB Rubber Ducky. When I tested the Rubber Ducky, I found the
+              language easy enough to learn, though there are a few things that could trip up an inexperienced
+              programmer.
+              <br><br>
+              Given the price, this wouldn’t make sense as a first hacking gadget for most people. However, with some
+              time and motivation, someone with basic technical knowledge could find many ways to use it.
+            </p>
+          </div>
+        </div><br>
+
+
+
+
+        <!-- END Introduction Menu -->
+      </div>
+
+      <!-- END GRID -->
+    </div><br>
+
+    <!-- END w3-content -->
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script type="text/javascript">
+    var typed = new Typed(".auto-type", {
+      strings: ["O.MG Elite Cable"],
+      typeSpeed: 80,
+      backSpeed: 80,
+      loop: true
+    })
+  </script>
+
+</body>
+
+</html>
